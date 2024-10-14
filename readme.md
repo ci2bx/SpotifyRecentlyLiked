@@ -1,4 +1,4 @@
-# SpotifyRencentlyLiked
+# SpotifyRecentlyLiked
 
 A spotify app to add your recently liked tracks to a playlist.
 
