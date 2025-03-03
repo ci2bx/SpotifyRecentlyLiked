@@ -7,7 +7,7 @@ import privVars
 # Setting spotify API
 sp = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id=privVars.client_id,
                                                client_secret=privVars.client_secret,
-                                               redirect_uri="http://localhost:1234",
+                                               redirect_uri="http://127.0.0.1:1234",
                                                scope="user-library-read,playlist-modify-private,playlist-modify-public")) 
 
 recently_liked_ids = []
